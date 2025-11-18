@@ -5,5 +5,3 @@ resource "digitalocean_droplet" "this" {
   size    = var.size
   ssh_keys = var.ssh_keys
 }
-
-
